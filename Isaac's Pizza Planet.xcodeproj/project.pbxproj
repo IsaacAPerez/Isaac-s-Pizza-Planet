@@ -12,6 +12,8 @@
 		DA253B512456BADE00058A9D /* EndGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA253B502456BADE00058A9D /* EndGameScene.sks */; };
 		DA253B532456BB1400058A9D /* EndGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA253B522456BB1400058A9D /* EndGameScene.swift */; };
 		DA2AF6DB244BA1F30007040D /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2AF6DA244BA1F30007040D /* Actions.swift */; };
+		DA45DFC22460E3C0007AA872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA45DFC12460E3C0007AA872 /* Assets.xcassets */; };
+		DA45DFC62460E48C007AA872 /* animate.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DA45DFC52460E48C007AA872 /* animate.atlas */; };
 		DA7AA53E2459631F003F2217 /* game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA7AA53D2459631F003F2217 /* game.mp3 */; };
 		DA7AA54024596652003F2217 /* Tiny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA7AA53F24596652003F2217 /* Tiny.mp3 */; };
 		DA8ACB6C244586E400C98BE9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8ACB6B244586E400C98BE9 /* StartViewController.swift */; };
@@ -21,8 +23,6 @@
 		DAAE4A8F2458131C00C13804 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAE4A8E2458131C00C13804 /* MusicPlayer.swift */; };
 		DAAE4A91245813B700C13804 /* song.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DAAE4A90245813B700C13804 /* song.m4a */; };
 		DAAE4A932458142300C13804 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAAE4A922458142300C13804 /* Actions.sks */; };
-		DAAE4A9D2458327A00C13804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAE4A9C2458327A00C13804 /* Assets.xcassets */; };
-		DAAE4AA12458329D00C13804 /* animate.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAAE4AA02458329D00C13804 /* animate.atlas */; };
 		DAAE4AA9245841E900C13804 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAE4AA8245841E900C13804 /* Data.swift */; };
 		DAB95C5C2443F20300AC2C3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB95C5B2443F20300AC2C3A /* AppDelegate.swift */; };
 		DAB95C642443F20300AC2C3A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB95C632443F20300AC2C3A /* GameViewController.swift */; };
@@ -36,6 +36,8 @@
 		DA253B502456BADE00058A9D /* EndGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameScene.sks; sourceTree = "<group>"; };
 		DA253B522456BB1400058A9D /* EndGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameScene.swift; sourceTree = "<group>"; };
 		DA2AF6DA244BA1F30007040D /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		DA45DFC12460E3C0007AA872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		DA45DFC52460E48C007AA872 /* animate.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = animate.atlas; path = "Assets for Isaac's Pizza Planet/animate.atlas"; sourceTree = "<group>"; };
 		DA7AA53D2459631F003F2217 /* game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game.mp3; sourceTree = "<group>"; };
 		DA7AA53F24596652003F2217 /* Tiny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tiny.mp3; sourceTree = "<group>"; };
 		DA8ACB6B244586E400C98BE9 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -45,8 +47,6 @@
 		DAAE4A8E2458131C00C13804 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		DAAE4A90245813B700C13804 /* song.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = song.m4a; sourceTree = "<group>"; };
 		DAAE4A922458142300C13804 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		DAAE4A9C2458327A00C13804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
-		DAAE4AA02458329D00C13804 /* animate.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = animate.atlas; path = ../../animate.atlas; sourceTree = "<group>"; };
 		DAAE4AA8245841E900C13804 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		DAB95C582443F20300AC2C3A /* Isaac's Pizza .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Isaac's Pizza .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB95C5B2443F20300AC2C3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +127,7 @@
 				DAB95C5A2443F20300AC2C3A /* Isaac's Pizza Planet */,
 				DA8ACB7124458C7500C98BE9 /* Resoucres */,
 				DAB95C592443F20300AC2C3A /* Products */,
+				DA45DFC12460E3C0007AA872 /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,9 +146,8 @@
 				DA038025245D232100926349 /* Scenes */,
 				DA038024245D231B00926349 /* Controllers */,
 				DA038023245D231100926349 /* Views */,
-				DAAE4AA02458329D00C13804 /* animate.atlas */,
-				DAAE4A9C2458327A00C13804 /* Assets.xcassets */,
 				DAB95C6D2443F20300AC2C3A /* Info.plist */,
+				DA45DFC52460E48C007AA872 /* animate.atlas */,
 			);
 			path = "Isaac's Pizza Planet";
 			sourceTree = "<group>";
@@ -214,13 +214,13 @@
 				DA238AF92459126F002499A8 /* song1.mp3 in Resources */,
 				DAAE4A932458142300C13804 /* Actions.sks in Resources */,
 				DAB95C672443F20300AC2C3A /* Main.storyboard in Resources */,
+				DA45DFC22460E3C0007AA872 /* Assets.xcassets in Resources */,
 				DA7AA53E2459631F003F2217 /* game.mp3 in Resources */,
 				DA253B512456BADE00058A9D /* EndGameScene.sks in Resources */,
 				DA238AFB245919F1002499A8 /* bit.m4a in Resources */,
+				DA45DFC62460E48C007AA872 /* animate.atlas in Resources */,
 				DA99FA8E244AF26B004F0AB9 /* GameScene.sks in Resources */,
 				DAB95C6C2443F20300AC2C3A /* LaunchScreen.storyboard in Resources */,
-				DAAE4A9D2458327A00C13804 /* Assets.xcassets in Resources */,
-				DAAE4AA12458329D00C13804 /* animate.atlas in Resources */,
 				DA7AA54024596652003F2217 /* Tiny.mp3 in Resources */,
 				DA8ACB7324458CA600C98BE9 /* Pixel.ttf in Resources */,
 			);
