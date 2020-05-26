@@ -7,11 +7,11 @@ gain an additional life as well.
 
 
 <p float="left">
-<img width= 300 src = images/intro.png>
-<img  width= 300 src = "images/dont.png">
-<img width= 300 src = images/pizza.png>
-<img width= 300 src = images/high.png>
-<img width= 300 src = images/exit.png>
+<img width= 450 src = images/intro.png>
+<img  width= 450 src = "images/dont.png">
+<img width= 450 src = images/pizza.png>
+<img width= 450 src = images/high.png>
+<img width= 450 src = images/exit.png>
 </p>
 
 
@@ -30,4 +30,7 @@ gain an additional life as well.
 
         Created by: Isaac Perez
         Email: iperez2435@gmail.com
+3. Snap Inc.
+        
+        Custom Bitmoji
 
