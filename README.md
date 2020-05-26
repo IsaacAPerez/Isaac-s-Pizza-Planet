@@ -22,6 +22,8 @@ gain an additional life as well.
 4. StoryBoards and GameScenes
 
 ## Credits
-1. Main Menu Music: Kelly 
-2. In Game Music: Isaac Perez
+1. Main Menu Music: Created by Kelly Yoshimura
+Email: kellyyoshimura18@gmail.com
+2. In Game Music: Created by Isaac Perez 
+Email: iperez2435@gmail.com
 
