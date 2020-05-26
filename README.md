@@ -5,8 +5,12 @@ drops on the floor, you lose a life. Additionally, if you accidently eat
 the brocolli you will lose imedietley. Each 20 slices you eat, you will 
 gain an additional life as well.
 
-<img src = "images/dont.png">
-<img src = images/exit.png>
+<img width= 300 src = images/intro.png>
+<img  width= 300 src = "images/dont.png">
+<img width= 300 src = images/pizza.png>
+<img width= 300 src = images/high.png>
+<img width= 300 src = images/exit.png>
+
 
 ## Technolgies Used
 1. IDE: Xcode
