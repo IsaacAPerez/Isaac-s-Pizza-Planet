@@ -7,11 +7,11 @@ gain an additional life as well.
 
 
 <p float="left">
-<img width= 450 src = images/intro.png>
-<img  width= 450 src = "images/dont.png">
-<img width= 450 src = images/pizza.png>
-<img width= 450 src = images/high.png>
-<img width= 450 src = images/exit.png>
+<img width= 440 src = images/intro.png>
+<img  width= 440 src = "images/dont.png">
+<img width= 440 src = images/pizza.png>
+<img width= 440 src = images/high.png>
+<img width= 440 src = images/exit.png>
 </p>
 
 
