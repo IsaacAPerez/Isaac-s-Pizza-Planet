@@ -122,8 +122,6 @@ class GameScene: SKScene {
         let oscillateLeft = SKAction.oscillationLeft(amplitude: 100, timePeriod: 6, midPoint: goodUFO!.position)
         goodUFO!.run(SKAction.repeatForever(SKAction.sequence([oscillateRight,oscillateLeft])))
         badUFO!.run(SKAction.repeatForever(SKAction.sequence([oscillateLeft,oscillateRight])))
-        Data.actions?.append(oscillateLeft)
-        Data.actions?.append(oscillateRight)
         
     }
     func dropFood() {

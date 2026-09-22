@@ -12,8 +12,6 @@ import GameplayKit
 
 class EndGameScene: SKScene {
     public var label : SKLabelNode?
-    public var start : StartViewController?
-    public var musicPlayer = MusicPlayer()
     
 
     
