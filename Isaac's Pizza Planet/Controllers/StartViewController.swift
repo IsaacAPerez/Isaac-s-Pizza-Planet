@@ -12,7 +12,6 @@ class StartViewController: UIViewController {
     
     @IBOutlet var score: UILabel!
     public static var scoreINT = 0
-    public static var highlabel : UILabel?
     
     
     

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA238AF92459126F002499A8 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA238AF82459126F002499A8 /* song1.mp3 */; };
 		DA238AFB245919F1002499A8 /* bit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA238AFA2459134C002499A8 /* bit.m4a */; };
 		DA253B512456BADE00058A9D /* EndGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA253B502456BADE00058A9D /* EndGameScene.sks */; };
 		DA253B532456BB1400058A9D /* EndGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA253B522456BB1400058A9D /* EndGameScene.swift */; };
@@ -22,8 +21,6 @@
 		DA99FA8E244AF26B004F0AB9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA99FA8D244AF26B004F0AB9 /* GameScene.sks */; };
 		DAAE4A8F2458131C00C13804 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAE4A8E2458131C00C13804 /* MusicPlayer.swift */; };
 		DAAE4A91245813B700C13804 /* song.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DAAE4A90245813B700C13804 /* song.m4a */; };
-		DAAE4A932458142300C13804 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAAE4A922458142300C13804 /* Actions.sks */; };
-		DAAE4AA9245841E900C13804 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAE4AA8245841E900C13804 /* Data.swift */; };
 		DAB95C5C2443F20300AC2C3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB95C5B2443F20300AC2C3A /* AppDelegate.swift */; };
 		DAB95C642443F20300AC2C3A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB95C632443F20300AC2C3A /* GameViewController.swift */; };
 		DAB95C672443F20300AC2C3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB95C652443F20300AC2C3A /* Main.storyboard */; };
@@ -31,7 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA238AF82459126F002499A8 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
 		DA238AFA2459134C002499A8 /* bit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bit.m4a; sourceTree = "<group>"; };
 		DA253B502456BADE00058A9D /* EndGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameScene.sks; sourceTree = "<group>"; };
 		DA253B522456BB1400058A9D /* EndGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameScene.swift; sourceTree = "<group>"; };
@@ -46,8 +42,6 @@
 		DA99FA8D244AF26B004F0AB9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		DAAE4A8E2458131C00C13804 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		DAAE4A90245813B700C13804 /* song.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = song.m4a; sourceTree = "<group>"; };
-		DAAE4A922458142300C13804 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		DAAE4AA8245841E900C13804 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		DAB95C582443F20300AC2C3A /* Isaac's Pizza .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Isaac's Pizza .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB95C5B2443F20300AC2C3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB95C632443F20300AC2C3A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -99,11 +93,9 @@
 		DA038026245D697A00926349 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				DAAE4AA8245841E900C13804 /* Data.swift */,
 				DA2AF6DA244BA1F30007040D /* Actions.swift */,
 				DAAE4A8E2458131C00C13804 /* MusicPlayer.swift */,
 				DAB95C5B2443F20300AC2C3A /* AppDelegate.swift */,
-				DAAE4A922458142300C13804 /* Actions.sks */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -113,7 +105,6 @@
 			children = (
 				DA8ACB7224458CA600C98BE9 /* Pixel.ttf */,
 				DAAE4A90245813B700C13804 /* song.m4a */,
-				DA238AF82459126F002499A8 /* song1.mp3 */,
 				DA238AFA2459134C002499A8 /* bit.m4a */,
 				DA7AA53D2459631F003F2217 /* game.mp3 */,
 				DA7AA53F24596652003F2217 /* Tiny.mp3 */,
@@ -211,8 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAAE4A91245813B700C13804 /* song.m4a in Resources */,
-				DA238AF92459126F002499A8 /* song1.mp3 in Resources */,
-				DAAE4A932458142300C13804 /* Actions.sks in Resources */,
 				DAB95C672443F20300AC2C3A /* Main.storyboard in Resources */,
 				DA45DFC22460E3C0007AA872 /* Assets.xcassets in Resources */,
 				DA7AA53E2459631F003F2217 /* game.mp3 in Resources */,
@@ -240,7 +229,6 @@
 				DA8ACB6C244586E400C98BE9 /* StartViewController.swift in Sources */,
 				DAB95C642443F20300AC2C3A /* GameViewController.swift in Sources */,
 				DAB95C5C2443F20300AC2C3A /* AppDelegate.swift in Sources */,
-				DAAE4AA9245841E900C13804 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
